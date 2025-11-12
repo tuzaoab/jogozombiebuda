@@ -5815,7 +5815,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759947941}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.08, y: -0.012, z: -0.02}
+  m_LocalPosition: {x: 0.135, y: -0.02, z: 0.05}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.33333334}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5845,11 +5845,15 @@ MonoBehaviour:
   recoilAngle: 25
   recoilDistance: 0.1
   recoilSpeed: 10
-  spinDuration: 0.9
-  spinTurns: 6
+  spinDuration: 1
+  spinTurns: 7
   trail: {fileID: 1104071183}
   ammoText: {fileID: 400528924}
   animator: {fileID: 1759947946}
+  runTiltAngle: -45
+  idleOffset: {x: 0, y: 0}
+  walkOffset: {x: 0.05, y: 0}
+  runOffset: {x: 0.1, y: -0.05}
 --- !u!212 &1759947945
 SpriteRenderer:
   m_ObjectHideFlags: 0
